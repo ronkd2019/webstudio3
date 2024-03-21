@@ -1,0 +1,168 @@
+:root {
+    --main-color: #2F303A;
+    --accent-color: #2196F3;
+    --paragraph-color: #757575;
+}
+
+#header h3 {
+    font-family: 'Raleway', serif;
+}
+
+#header li {
+    display: inline;
+}
+
+#header li a {
+    font-family: "Roboto Flex", sans-serif;
+}
+
+a.liheroo:hover {
+    color: var(--accent-color, #2196F3);
+
+}
+
+a.lihero:hover {
+    color: var(--accent-color, #2196F3);
+}
+
+a.liheroo,
+a.lihero {
+    color: black;
+    text-decoration: none;
+}
+
+a.liheroo {
+    padding: 80px;
+}
+
+a.lihero {
+    margin-left: 150px;
+}
+
+#hero {
+    background-color: var(--main-color, #2F303A);
+    width: 1450px;
+    height: 500px;
+}
+
+#hero h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto Flex', sans-serif;
+    padding-top: 70px;
+}
+
+.container {
+    text-align: center;
+}
+
+#hero button {
+    background-color: var(--accent-color);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
+
+#hero button:hover {
+    background-color: var(--paragraph-color);
+    font-size: larger;
+    transition: font-size 0.6s ease;
+}
+
+
+#main ul {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto Flex', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.mainul p:hover {
+    font-size: 20px;
+}
+
+#submain h2 {
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Roboto Flex', sans-serif
+}
+
+#main p {
+    color: var(--paragraph-color, #757575);
+    transition: font-size 0.3s ease;
+}
+
+
+#submain img {
+    margin: 55px;
+}
+
+#team h2 {
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 34px;
+}
+
+#team {
+    background: #F5F4FA;
+}
+
+#team ul {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    list-style: none;
+    font-family: 'Roboto Flex' sans-serif;
+}
+
+#team h5 {
+    font-family: 'Roboto Flex', sans-serif;
+    width: 129px;
+    height: 19px;
+}
+
+#team p {
+    font-family: 'Roboto Flex', sans-serif;
+    color: var(--paragraph-color);
+    width: 130px;
+    height: 19px;
+}
+
+.li1 {
+    padding: 30px;
+}
+
+.li2 {
+    padding: 30px;
+}
+
+.li3 {
+    padding: 30px;
+}
+
+.li4 {
+    padding: 30px;
+}
+
+#footer h3 {
+    font-family: 'Raleway', serif;
+}
+
+#footer .lihero-footer {
+    color: var(--main-color);
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#footer .lihero-footer:hover {
+    color: var(--accent-color);
+}
