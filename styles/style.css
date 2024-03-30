@@ -2,10 +2,12 @@
     --main-color: #2F303A;
     --accent-color: #2196F3;
     --paragraph-color: #757575;
+    --main-font: 'Raleway', serif;
+    --secondary-font: "Roboto Flex",sans-serif;
 }
 
 #header h3 {
-    font-family: 'Raleway', serif;
+    font-family: var(--main-font);
 }
 
 #header li {
@@ -13,7 +15,7 @@
 }
 
 #header li a {
-    font-family: "Roboto Flex", sans-serif;
+    font-family: var(--secondary-font);
 }
 
 a.liheroo:hover {
@@ -49,7 +51,7 @@ a.lihero {
     color: white;
     text-align: center;
     font-size: 50px;
-    font-family: 'Roboto Flex', sans-serif;
+    font-family: var(--secondary-font);
     padding-top: 70px;
 }
 
@@ -81,7 +83,7 @@ a.lihero {
 #main ul {
     display: flex;
     align-items: center;
-    font-family: 'Roboto Flex', sans-serif;
+    font-family: var(--secondary-font);
     text-decoration: none;
     list-style: none;
 }
@@ -93,7 +95,7 @@ a.lihero {
 #submain h2 {
     text-align: center;
     font-size: 34px;
-    font-family: 'Roboto Flex', sans-serif
+    font-family: var(--secondary-font);
 }
 
 #main p {
@@ -108,7 +110,7 @@ a.lihero {
 
 #team h2 {
     text-align: center;
-    font-family: 'Roboto Flex', sans-serif;
+    font-family: var(--secondary-font)
     font-size: 34px;
 }
 
@@ -121,17 +123,17 @@ a.lihero {
     align-items: center;
     margin: 30px;
     list-style: none;
-    font-family: 'Roboto Flex' sans-serif;
+    font-family: var(--secondary-font)
 }
 
 #team h5 {
-    font-family: 'Roboto Flex', sans-serif;
+    font-family: var(--secondary-font)
     width: 129px;
     height: 19px;
 }
 
 #team p {
-    font-family: 'Roboto Flex', sans-serif;
+    font-family: var(--secondary-font)
     color: var(--paragraph-color);
     width: 130px;
     height: 19px;
@@ -154,7 +156,7 @@ a.lihero {
 }
 
 #footer h3 {
-    font-family: 'Raleway', serif;
+    font-family: var(--main-font)
 }
 
 #footer .lihero-footer {
