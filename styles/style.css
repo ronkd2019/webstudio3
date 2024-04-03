@@ -2,6 +2,7 @@
     --main-color: #2F303A;
     --accent-color: #2196F3;
     --paragraph-color: #757575;
+    --team-background-color: #F5F4FA;
     --main-font: 'Raleway', serif;
     --secondary-font: "Roboto Flex",sans-serif;
 }
@@ -110,12 +111,12 @@ a.lihero {
 
 #team h2 {
     text-align: center;
-    font-family: var(--secondary-font)
+    font-family: var(--secondary-font);
     font-size: 34px;
 }
 
 #team {
-    background: #F5F4FA;
+    background: var(--team-background-color);
 }
 
 #team ul {
@@ -128,15 +129,11 @@ a.lihero {
 
 #team h5 {
     font-family: var(--secondary-font)
-    width: 129px;
-    height: 19px;
 }
 
 #team p {
-    font-family: var(--secondary-font)
-    color: var(--paragraph-color);
-    width: 130px;
-    height: 19px;
+    font-family: var(--secondary-font);
+    color: var(var(--paragraph-color))
 }
 
 .li1 {
@@ -154,17 +151,25 @@ a.lihero {
 .li4 {
     padding: 30px;
 }
+#footer {
+    background-color: var(--main-color);
+}
 
 #footer h3 {
     font-family: var(--main-font)
 }
-
-#footer .lihero-footer {
-    color: var(--main-color);
+#footer p {
+    color: white;
+}
+.lihero-footer {
+    color: var(--paragraph-color);
     text-decoration: none;
-    list-style-type: none;
+}
+.lihero-footer:hover {
+    color: var(--accent-color);
 }
 
-#footer .lihero-footer:hover {
-    color: var(--accent-color);
+
+#footer .ulhero-footer {
+    list-style-type: none;
 }
