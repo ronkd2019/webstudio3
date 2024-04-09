@@ -118,6 +118,8 @@ a.lihero {
 
 #team {
     background: var(--team-background-color);
+    background-clip: content-box;
+    margin-bottom: 0px;
 }
 
 #team ul {
@@ -128,39 +130,44 @@ a.lihero {
     font-family: var(--secondary-font)
 }
 
-#team h5 {
+.team-names {
     font-family: var(--secondary-font)
 }
 
-#team p {
+.team-roles {
     font-family: var(--secondary-font);
     color: var(var(--paragraph-color))
 }
 
-.li1 {
+.li-team1 {
     padding: 30px;
 }
 
-.li2 {
+.li-team2 {
     padding: 30px;
 }
 
-.li3 {
+.li-team3 {
     padding: 30px;
 }
 
-.li4 {
+.li-team4 {
     padding: 30px;
 }
 #footer {
     background-color: var(--main-color);
+    background-clip: content-box;
+    height: 200px;
 }
 
 #footer h3 {
-    font-family: var(--main-font)
+    font-family: var(--main-font);
+    margin-left: 40px;
+    margin-top: 0px;
 }
 #footer p {
     color: white;
+    margin-left: 40px;
 }
 .lihero-footer {
     color: var(--paragraph-color);
