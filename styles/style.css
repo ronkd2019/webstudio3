@@ -24,6 +24,10 @@ a.liheroo:hover {
 
 }
 
+.container {
+    width: 1715px;
+}
+
 a.lihero:hover {
     color: var(--accent-color, #2196F3);
 }
