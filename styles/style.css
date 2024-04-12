@@ -1,13 +1,170 @@
-:root {
+ :root {
     --main-color: #2F303A;
     --accent-color: #2196F3;
     --paragraph-color: #757575;
     --team-background-color: #F5F4FA;
+    --team-h4-color: #212121;
     --main-font: 'Raleway', serif;
     --secondary-font: "Roboto Flex",sans-serif;
 }
+.container {
+    width: 1600px;
+    height: 2346px;
+    margin-right: 215px; 
+    margin-left: 215px; 
+}
+.header h3 {
+    font-family: var(--main-font);
+}
+.header li {
+    list-style-type: none;
+}
+.header li a {
+    color: var(--main-color);
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.header li a:hover {
+    color: var(--accent-color);
+}
+.hero {
+    width: auto;
+    height: 600px;
+    background-color: var(--main-color);
+}
+.hero h1 {
+    font-family: var(--secondary-font);
+    color: var(--team-background-color);
+    line-height: 60px;
+    letter-spacing: 6%;
+    font-size: 44px;
+    text-align: center;
+}
+.hero button {
+    color: var(--team-background-color);
+    background-color: var(--accent-color);
+    border-radius: 4px;
+    width: 216px;
+    height: 50px;
+    font-family: var(--secondary-font);
+    transition: 0.5s ease;
+    font-family: var(--secondary-font);
 
-#header h3 {
+}
+.hero button:hover {
+    background-color: var(--paragraph-color);
+}
+.main-li {
+    list-style-type: none;
+}
+.main-h4 {
+    font-family: var(--secondary-font);
+    line-height: auto;
+    letter-spacing: 3%;
+    font-size: 14px;
+    color: var(--team-h4-color);
+}
+.main-p {
+    width: 270px;
+    height: 72px;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    color: var(--paragraph-color);
+}
+.submain h2 {
+    font-family: var(--secondary-font);
+    text-align: center;
+    font-size: 36px;
+    line-height: auto;
+    letter-spacing: 3%;
+    color: var(--team-h4-color);
+}
+.submain img {
+    width: 370px;
+    height: 294px;
+}
+.submain .submain-img1 {
+    margin-right: 30px;
+}
+.submain .submain-img2 {
+    margin-right: 30px;
+}
+.team {
+    background-color: var(--team-background-color);
+    height: 648px;
+}
+.team h2 {
+    font-family: var(--secondary-font);
+    text-align: center;
+    letter-spacing: 3%;
+    line-height: auto;
+    color: var(--team-h4-color);
+    font-size: 36px;
+}
+.team ul {
+    display: flex;
+    list-style-type: none;
+}
+.team img {
+    width: 270px;
+    height: 260px;
+    margin-top: auto;
+}
+.team .team-img1 {
+    margin-right: 30px;
+    margin-left: 0px;
+}
+.team .team-img2 {
+    margin-right: 30px;
+}
+.team .team-img3 {
+    margin-right: 30px;
+}
+.team-names {
+    font-family: var(--secondary-font);
+    letter-spacing: 3%;
+    line-height: auto;
+    font-size: 16px;
+    color: var(--team-h4-color);
+}
+.team-roles {
+    font-family: var(--secondary-font);
+    letter-spacing: 3%;
+    line-height: auto;
+    font-size: 16px;
+    color: var(--paragraph-color);
+}
+.footer ul {
+    list-style-type: none;
+}
+.footer h3 {
+    font-family: var(--main-font);
+}
+.footer p {
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--team-h4-color);
+}
+.footer a {
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--paragraph-color);
+    text-decoration: none;
+}
+.footer a:hover {
+    color: var(--accent-color);
+}
+/* #header h3 { 
     font-family: var(--main-font);
 }
 
@@ -60,11 +217,13 @@ a.lihero {
     padding-top: 70px;
 }
 
-.container {
-    text-align: center;
-}
+/* .container {
+    width: 1600px;
+    height: auto;
+    margin-left: 50px;
+} */
 
-#hero button {
+/* #hero button {
     background-color: var(--accent-color);
     border: none;
     color: white;
@@ -153,9 +312,9 @@ a.lihero {
 
 .li-team3 {
     padding: 30px;
-}
+} */
 
-.li-team4 {
+/* .li-team4 {
     padding: 30px;
 }
 #footer {
@@ -184,4 +343,4 @@ a.lihero {
 
 #footer .ulhero-footer {
     list-style-type: none;
-}
+}  */
