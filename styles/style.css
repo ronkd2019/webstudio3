@@ -15,6 +15,11 @@
 }
 .header h3 {
     font-family: var(--main-font);
+    display: flex;
+}
+.header ul{
+    font-family: var(--secondary-font);
+    display: flex;
 }
 .header li {
     list-style-type: none;
@@ -49,7 +54,7 @@
     font-family: var(--secondary-font);
     transition: 0.5s ease;
     font-family: var(--secondary-font);
-
+    display: flex;
 }
 .hero button:hover {
     background-color: var(--paragraph-color);
@@ -57,12 +62,16 @@
 .main-li {
     list-style-type: none;
 }
+.main-li1 {
+    display: flex;
+}
 .main-h4 {
     font-family: var(--secondary-font);
     line-height: auto;
     letter-spacing: 3%;
     font-size: 14px;
     color: var(--team-h4-color);
+    display: flex;
 }
 .main-p {
     width: 270px;
@@ -72,6 +81,8 @@
     line-height: 24px;
     letter-spacing: 3%;
     color: var(--paragraph-color);
+    display: flex;
+
 }
 .submain h2 {
     font-family: var(--secondary-font);
@@ -80,16 +91,14 @@
     line-height: auto;
     letter-spacing: 3%;
     color: var(--team-h4-color);
+    display: flex;
+    justify-content: center;
 }
 .submain img {
     width: 370px;
     height: 294px;
-}
-.submain .submain-img1 {
-    margin-right: 30px;
-}
-.submain .submain-img2 {
-    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
 }
 .team {
     background-color: var(--team-background-color);
@@ -102,19 +111,28 @@
     line-height: auto;
     color: var(--team-h4-color);
     font-size: 36px;
+    display: flex;
+    justify-content: center;
 }
 .team ul {
     display: flex;
     list-style-type: none;
+    display: flex;
 }
 .team img {
     width: 270px;
     height: 260px;
     margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .team .team-img1 {
     margin-right: 30px;
     margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .team .team-img2 {
     margin-right: 30px;
@@ -128,6 +146,7 @@
     line-height: auto;
     font-size: 16px;
     color: var(--team-h4-color);
+    display: flex;
 }
 .team-roles {
     font-family: var(--secondary-font);
@@ -135,15 +154,19 @@
     line-height: auto;
     font-size: 16px;
     color: var(--paragraph-color);
+    display: flex;
 }
 .footer ul {
     list-style-type: none;
+    display: flex;
 }
 .footer h3 {
     font-family: var(--main-font);
+    display: flex;
 }
 .footer p {
     font-family: var(--secondary-font);
+    display: flex;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -153,6 +176,7 @@
 }
 .footer a {
     font-family: var(--secondary-font);
+    display: flex;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
